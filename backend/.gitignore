@@ -1,0 +1,33 @@
+# Maven / Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven wrapper runtime files
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot
+spring.log
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+.factorypath
+.DS_Store
+Thumbs.db
+Desktop.ini

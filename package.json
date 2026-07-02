@@ -1,0 +1,13 @@
+{
+  "name": "dare-to-travel",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@11.7.0",
+  "scripts": {
+    "frontend:start": "pnpm --dir frontend start",
+    "frontend:build": "pnpm --dir frontend build",
+    "frontend:test": "pnpm --dir frontend exec ng test --watch=false",
+    "backend:test": "cd backend && mvn test",
+    "backend:start": "cd backend && mvnw.cmd spring-boot:run"
+  }
+}
